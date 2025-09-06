@@ -42,7 +42,7 @@ switch(day){
 // array of strings
 let colors=["green","red","blue","yellow"]
 for(let i=0;i<colors.length;i++){
-    console.log(colors(i))
+    console.log(color(i))
 }
 for(let color of colors ){
     console.log(color);
@@ -58,6 +58,9 @@ for(let key in person){
 }
 for(let i=5;i>=0;i--){
     if(i===3){
-        console.log
+        continue;
+    }else if(i===2){
+        break;
     }
+    console.log(i)
 }
