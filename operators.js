@@ -58,3 +58,4 @@ console.log(typeof count)
 console.log(typeof "pavan")
 console.log(typeof 26)
 
+
