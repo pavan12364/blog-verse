@@ -1,7 +1,7 @@
 console.log("start learning java script");
 let name = "Dev Astra";
 console.log((name))
-let num=07
+let num=7;
 console.log(num)
 console.log(typeof name)
 console.log(typeof num)
@@ -22,3 +22,9 @@ console.log(person.name)
 console.log(person.age)
 console.log(person.branch)
 console.log(typeof person)
+ 
+
+console.log(person["name"])
+console.log(person["age"])
+
+
